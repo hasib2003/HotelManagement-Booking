@@ -1,0 +1,155 @@
+.mainContainer{
+
+
+    
+    min-height:70vh ;
+    max-height: fit-content;
+
+    width: 60vw;
+
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space space-between; */
+
+}
+.main2
+{
+    min-height:70vh ;
+    max-height: fit-content;
+
+    width: 60vw;
+
+    margin: 3rem auto;
+  
+}
+
+.card
+{
+    height: 25vh;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: space-evenly;
+    /* background: yellow; */
+    border: 2px solid;
+    margin: 25px auto;
+
+}
+.ReviewCard{
+    height: 25vh;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    justify-content: space-around;
+    /* background: yellow; */
+    border: 2px solid;
+    margin: 25px auto;
+
+}
+.specs{
+    margin: 0 78px;
+    
+    /* background: #000; */
+    width: 30%;
+}
+.submit{
+    margin: 0 25px;
+    /* background:yellow; */
+    width:70%;
+}
+.ReviewCard textarea
+{
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
+justify-content: space-around;
+}
+.ReviewCard button
+{
+    margin: 15px;
+}
+
+.textBar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    min-height: 40%;
+}
+
+.editBar
+{
+    width: 40%;
+    min-height: 100%;
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn
+{
+    min-width: 40vw;
+    margin:auto;
+    /* background: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background:#000000;
+    border-radius: 1rem;
+    font-weight: bolder;
+    color: white;
+    font-size:1.2rem;
+    margin: 2rem;
+    padding: 0.8rem 1.6rem;
+}
+
+
+.dropDown
+{
+
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    justify-content:space-evenly;
+    list-style: none;
+}
+.dropDown li button{
+    font-size:0.8rem;  
+    margin: 0.5rem;
+    padding: 0.8rem 1.6rem;
+}
+
+.link
+{
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+}
+.link:hover
+{
+    background: #000;
+    color:white;
+    cursor: pointer;
+}
+
+
+
+
+
+

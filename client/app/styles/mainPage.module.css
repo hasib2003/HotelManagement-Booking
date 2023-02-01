@@ -1,0 +1,17 @@
+.mainContainer
+{
+    width: 98vw;
+    min-height:200vh ;
+    /* background: ; */
+    border: 1px solid;
+    margin:auto;
+    padding:0;
+}
+
+.navbar
+{
+    width: 98%;
+    height: 10vh;
+    border: 2px solid;
+    margin: auto;
+}

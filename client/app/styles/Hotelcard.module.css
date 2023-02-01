@@ -1,0 +1,126 @@
+
+
+
+
+.hotelCard
+{
+cursor: pointer;
+margin: 15px;
+background: rgb(255, 255, 255);
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;height: 30vh;
+width:20vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+z-index: 1;
+}
+.hotelDesc  h3{
+    color:white;
+    padding: 12px;
+    background: #2b2e63;
+}
+.blurCard{
+        z-index: 0;
+    background: none;
+    filter: blur(10px);
+    pointer-events: none;
+}
+.hotelCard h1{
+    margin: 0 auto;
+
+}
+.apartmentlCard h1{
+    width: 83%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.editor {
+    width: 17%;
+    height:100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+.apartmentlCard
+{
+ cursor: pointer;
+margin: 15px;
+background: white;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;height: 30vh;
+width:25vw;
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.formdiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.changeCorner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotelImage
+{
+    width: 80%;
+    height: 40%;
+    background: green;
+}
+.hotelDesc
+{
+    height: 60%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.editCard{
+    background: #000;
+    height: 100%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.addMore{
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;height: 30vh;
+
+    background: white;
+    border: 2px solid;
+    height: 30vh;
+    width:20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+
+    }
+.addMore button{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;height: 30vh;
+    height: 90px;
+    border-radius:15px ;
+    border: none;
+    background: white;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    width: max-content;
+    outline: none;
+    }

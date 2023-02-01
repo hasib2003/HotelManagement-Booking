@@ -1,0 +1,151 @@
+.main_container{
+    margin-top: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.home h1
+{
+text-align: center;
+}
+.home h2
+{
+text-align: center;
+}
+.blurBg 
+/* > *:not(#not_blur) */
+{
+    /* z-index: 0;
+    background: none;
+    filter: blur(10px); */
+    flex-direction: column;
+    flex-wrap:nowrap;
+}
+.sidebar{
+margin: 20px;
+    cursor: pointer;
+    /* margin: 7PX; */
+    padding: 15px;
+    width: 18%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;height: 30vh;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 95%;
+
+    position: sticky;
+    top:20px;
+    left: 20px;
+    align-self: flex-start;
+    overflow-y: auto;
+}
+
+.userInfo
+{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction:column ;
+    /* background: green; */
+}
+
+.ownerImage
+{
+    width: 80%;
+    height: 50%;
+    background: wheat;
+
+}
+
+
+.mainCont {
+    /* background: #000; */
+    width: 80%;
+    height: 50%;
+
+}
+.mainCont div h2
+{
+    width: 100%;
+    background: #000;
+    text-align: left;
+}
+
+.mainLinks{
+    /* margin:0 auto; */
+    height: 60%;
+    width: 80%;
+    /* background: yellow; */
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; */
+
+}
+.mainLinks h2{
+    background: #2b2e63;
+    width: 100%;
+    padding: 8px;
+    /* background: #000; */
+    text-align: left;
+    color: white;
+
+
+}
+.mainLinks h2:hover{
+    background: #000;
+}
+
+.mainLinks button{
+    cursor: pointer;
+    padding: 12px 22px;
+    background: #2b2e63;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+
+    font-weight: bold;
+}
+
+.mainLinks button:hover{
+background: #000;
+}
+
+.content_container{
+    width: 80%;
+    height: 100%;
+    background:white;
+
+}
+
+.none{
+    display: none;
+}
+.intro_text{
+    width: max-content;
+    text-align: center;
+    margin:3rem auto;
+}
+
+.users_cont h1{
+ display: none;
+}
+.users_cont{
+    min-height:30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

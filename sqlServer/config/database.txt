@@ -1,0 +1,3 @@
+this file contains the code for connecting to the database
+
+connecttion shall be established here

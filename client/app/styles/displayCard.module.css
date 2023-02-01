@@ -1,0 +1,26 @@
+.cardContainer
+{
+    margin: 10px auto;
+
+    background:white;
+    /* border: 6px solid green; */
+    min-width: 80%;
+    min-height: 70%;
+    /* max-height: fit-content; */
+    display: flex;;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+.flexCol{
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+    
